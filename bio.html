@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Bio</title>
+
+    <script type='text/javascript' src='jquery-11.0.min.js'></script>
+    <script type='text/javascript' src='unitegallery.min.js'></script>
+
+    <link rel='stylesheet' href='unite-gallery.css' type='text/css' />
+    <link rel='stylesheet' href='style.css'>
+    <script type='text/javascript' src='ug-theme-carousel.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <div class="navleft">
+        <a href="index.html">
+
+            <button class="hbtn"><i class="fa fa-home"></i> Home</button>
+
+        </a>
+
+    </div>
+    
+     <div class="rightnav">
+        <a href="client.html">
+            <button class="btn"> Clients</button>
+        </a>
+    </div>
+    <div class="rightnav">
+        <a href="bio.html">
+            <button class="btn"> Bio</button>
+        </a>
+
+    </div>
+
+    <div class="rightnav">
+        <a href="mailto: james@illustr8.co.nz">
+            <button class="btn">Contact</button>
+        </a>
+
+    </div>
+    <h2>Biography</h2>
+    <h4>James Wakelin MA [Brighton, England]</h4>
+    <div class="bio">
+        After attending AUT and completing a Bachelor of Graphic Design specialising in Illustration, James Wakelin worked as a freelance illustrator in Auckland, later also teaching at AUT. After moving to Europe in 1999 to undertake a Masters Degree in Illustration, he continued to work for clients both in New Zealand, as well as in England. Returning in 2004 he continues to illustrate for a varied range of clients including book and magazine publishers, as well as design firms, and continues to work as a portrait artist. James continues to teach at AUT, and acts as an examiner on both the MA and Honours Year courses.
+    </div>
+    <div id="gallery" style="display:none;">
+
+
+        <img alt="Example Image" src="bio/1.jpg" data-image="bio/1.jpg" style="display:none">
+
+        <img alt="Example Image" src="bio/2.jpg" data-image="bio/2.jpg" style="display:none">
+
+        <img alt="Example Image" src="bio/3.jpg" data-image="bio/3.jpg" style="display:none">
+
+        <img alt="Example Image" src="bio/4.jpg" data-image="bio/4.jpg" style="display:none">
+
+        <img alt="Example Image" src="bio/5.jpg" data-image="bio/5.jpg" style="display:none">
+
+        <img alt="Example Image" src="bio/7.jpg" data-image="bio/7.jpg" style="display:none">
+
+        <img alt="Example Image" src="bio/8.jpg" data-image="bio/8.jpg" style="display:none">
+
+        <img alt="Example Image" src="bio/9.jpg" data-image="bio/9.jpg" style="display:none">
+
+        <img alt="Example Image" src="bio/10.jpg" data-image="bio/10.jpg" style="display:none">
+
+        <img alt="Example Image" src="bio/11.jpg" data-image="bio/11.jpg" style="display:none">
+
+        <img alt="Example Image" src="bio/12.jpg" data-image="bio/12.jpg" style="display:none">
+
+        <img alt="Example Image" src="bio/13.jpg" data-image="bio/13.jpg" style="display:none">
+
+        <img alt="Example Image" src="bio/14.jpg" data-image="bio/14.jpg" style="display:none">
+
+
+
+    </div>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+
+            jQuery("#gallery").unitegallery();
+
+
+        });
+
+        jQuery("#gallery").unitegallery({
+
+            tile_width: 200,
+            tile_height: 200,
+            carousel_space_between_tiles: 10,
+            gallery_width: "100%",
+            tile_enable_icons: false,
+            tile_border_radius: 100,
+            tile_enable_shadow: false,
+            tile_enable_border: true,
+            tile_enable_outline: false,
+            tiles_space_between_cols: 15,
+            tiles_justified_space_between: 15,
+            tile_border_color: "#243665",
+            tile_border_width: 3,
+            tiles_col_width: 235,
+
+        });
+    </script>
+</body>
+</html>

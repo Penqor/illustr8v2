@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Clients</title>
+
+    <script type='text/javascript' src='jquery-11.0.min.js'></script>
+    <script type='text/javascript' src='unitegallery.min.js'></script>
+
+    <link rel='stylesheet' href='unite-gallery.css' type='text/css' />
+    <link rel='stylesheet' href="style.css">
+    <script type='text/javascript' src="ug-theme-tiles.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="navleft">
+        <a href="index.html">
+            <button class="hbtn"><i class="fa fa-home"></i> Home</button>
+
+        </a>
+
+    </div>
+     <div class="rightnav">
+        <a href="client.html">
+            <button class="btn"> Clients</button>
+        </a>
+    </div>
+    <div class="rightnav">
+        <a href="bio.html">
+            <button class="btn"> Bio</button>
+        </a>
+
+    </div>
+
+    <div class="rightnav">
+        <a href="mailto: james@illustr8.co.nz">
+            <button class="btn">Contact</button>
+        </a>
+
+    </div>
+    <h2>Clients</h2>
+
+    <div id="gallery" style="display:none;">
+
+
+            <img alt="Adrenalin Publishing Limited" src="clients/1.jpg" data-image="clients/1.jpg" data-image-mobile="clients/1.jpg" data-thumb-mobile="clients/1.jpg" style="display:none">
+
+
+            <img alt="AGM Publishing Limited" src="clients/2.jpg" data-image="clients/2.jpg" data-image-mobile="clients/2.jpg" data-thumb-mobile="clients/2.jpg" style="display:none">
+
+
+            <img alt="Colenso" src="clients/3.jpg" data-image="clients/3.jpg" data-image-mobile="clients/3.jpg" data-thumb-mobile="clients/3.jpg" style="display:none">
+
+
+            <img alt="dbreweries" src="clients/4.jpg" data-image="clients/4.jpg" data-image-mobile="clients/4.jpg" data-thumb-mobile="clients/4.jpg" style="display:none">
+
+
+            <img alt="Design Works" src="clients/5.jpg" data-image="clients/5.jpg" data-image-mobile="clients/5.jpg" data-thumb-mobile="clients/5.jpg" style="display:none">
+
+
+            <img alt="Herald on Sunday" src="clients/6.jpg" data-image="clients/6.jpg" data-image-mobile="clients/6.jpg" data-thumb-mobile="clients/6.jpg" style="display:none">
+
+
+            <img alt="Lion" src="clients/7.jpg" data-image="clients/7.jpg" data-image-mobile="clients/7.jpg" data-thumb-mobile="clients/7.jpg" style="display:none">
+
+
+            <img alt="M & Csaatchi" src="clients/8.jpg" data-image="clients/8.jpg" data-image-mobile="clients/8.jpg" data-thumb-mobile="clients/8.jpg" style="display:none">
+
+
+            <img alt="NZ listener" src="clients/9.jpg" data-image="clients/9.jpg" data-image-mobile="clients/9.jpg" data-thumb-mobile="clients/9.jpg" style="display:none">
+
+
+            <img alt="Ogilvy" src="clients/10.jpg" data-image="clients/10.jpg" data-image-mobile="clients/10.jpg" data-thumb-mobile="clients/10.jpg" style="display:none">
+
+
+            <img alt="Pearson Education" src="clients/11.jpg" data-image="clients/11.jpg" data-image-mobile="clients/11.jpg" data-thumb-mobile="clients/11.jpg" style="display:none">
+
+
+            <img alt="TBWA" src="clients/12.jpg" data-image="clients/12.jpg" data-image-mobile="clients/12.jpg" data-thumb-mobile="clients/12.jpg" style="display:none">
+
+
+            <img alt="The NZ Herald" src="clients/13.jpg" data-image="clients/13.jpg" data-image-mobile="clients/13.jpg" data-thumb-mobile="clients/13.jpg" style="display:none">
+
+
+            <img alt="Yandy" src="clients/14.jpg" data-image="clients/14.jpg" data-image-mobile="clients/14.jpg" data-thumb-mobile="clients/14.jpg" style="display:none">
+
+
+    </div>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+
+            jQuery("#gallery").unitegallery();
+
+        });
+        jQuery("#gallery").unitegallery({
+            tile_enable_shadow: false,
+            tile_enable_border: true,
+            tile_enable_outline: false,
+            tiles_space_between_cols: 15,
+            tiles_justified_space_between: 15,
+            tile_border_color: "#949494",
+            tile_border_width: 3,
+            tiles_col_width: 410,
+            tile_border_radius: 20,
+            tile_enable_icons: false,
+        });
+    </script>
+
+
+</body>
+</html>

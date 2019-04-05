@@ -1,0 +1,132 @@
+
+h1{
+    margin-left: 44vw;
+    font-size: 50px;
+    font-family: 'Srisakdi', cursive;
+
+}
+.logo{
+    margin-left: 41vw;
+}
+.rightnav{
+    float: right;
+    padding-right: 0.5vw;
+    overflow: inherit;
+   
+}
+
+.navleft{
+    float: left;
+    font-size: 1.4vw;
+    width: 100px;
+       
+}
+h2{
+    font-size: 50px;
+    margin-right: 35.5vw;
+    margin-left: 35.5vw;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: #C5D5EA;
+
+
+}
+h4{
+    margin-left: 39vw;
+    padding-top: 0vw;
+    font-size: 22px;
+    color: #C5D5EA;
+    font-family: 'Cairo', sans-serif;
+
+
+
+}
+    
+p, .bio{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+    color: #C5D5EA;
+
+}
+p{
+   max-width: 59vw;
+    margin-left: 20vw; 
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4vw;
+    padding-left: 0.5vw;
+}
+
+.oldman{
+    float: left;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    border: solid 4px #243665;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+img{
+    border-radius: 15px;
+    
+}
+.copy{
+    font-size: 15px;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    color: #C5D5EA;
+
+
+}
+/* Style buttons */
+.btn {
+  background-color: #8BD8BD; 
+  border: none; 
+  color: #243665; 
+  padding: 1vw 1.1vw; 
+  font-size: 15px; 
+  cursor: pointer; 
+    border-radius: 15vw;
+    width: 85px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.btn:hover {
+  background-color: #243665;
+color: #8BD8BD;
+}
+
+.hbtn {
+  background-color: #8BD8BD; 
+  border: none; 
+  color: #243665; 
+  padding: 1vw 1.1vw; 
+  font-size: 15px; 
+  cursor: pointer; 
+    border-radius: 15vw;
+    width: 95px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hbtn:hover {
+  background-color: #243665;
+color: #8BD8BD;
+}
+
+.bio{
+    max-width: 60vw;  
+    margin-left: 20vw;
+}
+
+body{
+    background-color: #2E5266;
+}
+.mbtn{
+    margin-top: 2vw;
+}
